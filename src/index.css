@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://img.freepik.com/free-photo/old-wooden-texture-background-vintage_55716-1138.jpg?size=626&ext=jpg");
+  height: 100vh;
+	background-size: cover;
+	background-position: center;
+  color: #F2F2F2;
+
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  align-content: center;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #F2F2F2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:  rgb(58, 233, 15);
+  color:black;
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color:black;
+  color: white;
+}
+
+/*.title{
+  font-family: 'Lucida Sans';
+  font-size: 70px;
+  color: green;
+}
+*/
+
+.quote{
+  font-family: 'Lucida Sans Regular';
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+  color: lightgray;
+
+}
+h1{
+  text-align: center;
+  text-decoration: none;
+  font-family:'Zebrazil' ;
+  font-size: 50PX;
+  font-weight: 700;
+  margin-top: 10%;
+  color: rgb(58, 233, 15);
+  
+}
+.Oranges{
+ float: left;
+ width: 32%;
+ margin-left: 4%;
+
+}
+img{
+  width:  50%;
+  margin-top: 30px;
+  
+}
+
+.Mangoes{
+  float: left;
+  width: 32%;
+  margin-top: 1%;
+}
+
+.Pineapples{
+  float: left;
+ width: 32%;
+ height: auto;
+}
+
+.Apples{
+  float: left;
+  width: 32%;
+  margin-left: 4%;
+
+}
+
+.Bananas{
+  float: left;
+  width: 32%;
+  margin-top: 1%;
+}
+
+.add-to-cart{
+  font-size:20px ;
+  text-align: center;
+  background-color: forestgreen;
+  color: #F2F2F2;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 10px 32px;
+
+}
+
+
